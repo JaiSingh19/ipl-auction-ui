@@ -4,7 +4,7 @@ import { saveAs } from "file-saver";
 
 
 
-const API = "http://localhost:8080/api/bids";
+const API = "https://iplaction-1-0-2.onrender.com/api/bids";
 
 function App() {
   const [bids, setBids] = useState([]);
